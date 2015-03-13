@@ -6,6 +6,7 @@
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    text-align: center;
 }
 
 .hero-spacer {
@@ -19,3 +20,229 @@ body {
 footer {
     margin: 50px 0;
 }
+
+footer a {
+    color: white;
+}
+
+body {
+    color: white;
+    background-color: black;
+    background-image: url(http://klarismo.com/img/lungs.jpg);
+    background-repeat: repeat-y;
+    background-position: top;
+    font-size: 16px
+}
+
+.jumbotron-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .jumbotron-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .jumbotron-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .jumbotron-container {
+    width: 1170px;
+  }
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.5) ;
+}
+
+.jumbotron h1 {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.jumbotron .introduction {
+    padding-top: 3em;
+    padding-bottom: 0em;
+
+}
+
+.thumbnail {
+    background-color: rgba(0, 0, 0, 0) ;
+    border: none;
+}
+
+.thumbnail .caption {
+    color: white;
+    border: none;
+}
+
+.thumbnail .caption.locations {
+    color: white;
+    text-align: left;
+}
+
+.how-it-works p {
+    text-align: left;
+}
+
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.row {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .row {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .row {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .row {
+    width: 1170px;
+  }
+}
+
+.row-full {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+@media (max-width: 768px) {
+  .col-md-4 {
+    padding-top: 1em;
+  }
+
+  h3 {
+    margin-bottom: 5px;
+  }
+
+  p {
+    margin-bottom: 5px;
+  }
+}
+
+.get-started {
+    padding-bottom: 2em;
+    padding-top: 4em;
+}
+
+.get-started-title {
+    padding-bottom: 3em;
+}
+
+.row-full:nth-of-type(odd) {
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.call-to-action > h3.title{
+    margin-top: 0px;
+    padding-bottom: 0.5em;
+}
+
+.call-to-action > h3.price {
+    padding-bottom: 1em;
+}
+
+.call-to-action a {
+    font-size: 28px;
+}
+
+.navbar-brand {
+    display: table;
+}
+
+.navbar-brand img {
+    vertical-align: middle;
+    display: table-cell;
+    height: 3em;
+    width: 3em;
+    display: block;
+}
+
+.navbar-brand span {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.collapse .navbar-collapse {
+
+    color: white;
+}
+
+.navbar-brand span.brand {
+    font-size: 2em;
+}
+
+.navbar-brand span.brand::before {
+    content: '\00a0'
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: right;
+    margin: 0;
+  }
+  .navbar-nav > li {
+    float: right;
+  }
+  .navbar-nav > li > a {
+    padding-top: 35px;
+    padding-bottom: 30px;
+  }
+}
+
+.navbar-toggle {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+footer ul > li {
+    display: inline-block;
+    zoom:1;
+    *display:inline; /* this fix is needed for IE7- */
+    padding: 0px 6px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

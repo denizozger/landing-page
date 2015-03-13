@@ -9,10 +9,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Heroic Features - Start Bootstrap Template</title>
+    <title>Klarismo</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/heroic-features.css" rel="stylesheet">
@@ -39,19 +40,26 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+
+                <!-- <a class="navbar-brand" href="#"><img src="http://klarismo.com/img/logos/klarismo_400.png" style="height: 20px; width: 20%; display: block;"><span>Klarismo</span></a> -->
+    
+                <div class="navbar-brand">
+                  <span><img src="http://klarismo.com/img/logos/klarismo_400.png" /></span>
+                  <span class="brand">KLARISMO</span>
+                </div>
+
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="/team">Team</a>
+                    </li>                
+                    <li>
+                        <a href="/company">Company</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
+                        <a href="/about">About</a>
                     </li>
                 </ul>
             </div>
@@ -61,91 +69,145 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container">
-
-        <!-- Jumbotron Header -->
-        <header class="jumbotron hero-spacer">
-            <h1>A Warm Welcome!</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-            <p><a class="btn btn-primary btn-large">Call to action!</a>
-            </p>
-        </header>
-
-        <hr>
-
+    <div class="container-full">
+        <div class="jumbotron-container">
+            <!-- Jumbotron Header -->
+            <header class="jumbotron hero-spacer">
+                <h1>Your body, reimagined.</h1>
+                <div class="row">
+                    <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                    <img src="https://placekitten.com/g/200/300" data-holder-rendered="true" alt="100%x180"  style="height: 180px; width: 100%; display: block;">
+                    </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                      <img src="https://placekitten.com/g/199/299" data-holder-rendered="true" alt="100%x180"  style="height: 180px; width: 100%; display: block;">
+                    </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                      <img src="https://placekitten.com/g/201/301" data-holder-rendered="true" alt="100%x180"  style="height: 180px; width: 100%; display: block;">
+                    </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                      <img src="https://placekitten.com/g/202/302" data-holder-rendered="true" alt="100%x180"  style="height: 180px; width: 100%; display: block;">
+                    </a>
+                    </div>
+                </div>
+                <p class="introduction">Klarismo invites you to embark on a fantastic journey into your own body and explore it's beauty in unprecedented detail. Sign up for one of our safe and affordable 3D body scans and let us build a virtual model of yourself, ready for you to explore.</p>
+                <!-- <p><a class="btn btn-primary btn-large">Call to action!</a>
+                </p> -->
+            </header>
+        </div>
         <!-- Title -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h3>Latest Features</h3>
+        <div class="row-full get-started">
+            <div class="row get-started-title">
+                <div class="col-lg-12">
+                    <h1>Get started today!</h1>
+                </div>
+            </div>
+            <!-- /.row -->
+
+            <!-- Page Features -->
+            <div class="row text-center">
+
+                <div class="col-md-6 col-sm-6 hero-feature">
+                    <div class="thumbnail">
+                        <div class="caption locations">
+                            <p>Klarismo is available in the following locations:</p>
+                            <ul>
+                              <li>London, England</li>
+                              <li>San Francisco, CA</li>
+                              <li>Los Angeles, CA</li>
+                              <li>New York City, NY</li>
+                            </ul>
+                            <p>If you city is not listed, please <a href="/register">click here</a> to register your interest.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 hero-feature">
+                    <div class="thumbnail">
+                        <div class="caption call-to-action">
+                            <h3 class="title">The Klarismo 3D Body Scan is available for only</h3>
+                            <h3 class="price">US $349 / UK £249</h3>
+                            <p>
+                                <button type="button" class="btn btn-primary btn-block btn-lg">Book your 3D Body Scan!</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        <!-- /.row -->
+        </div>
+
+        <div class="row-full">
+            <div class="row how-it-works">
+              <div class="col-md-4">
+                    <img src="https://placekitten.com/g/300/200" data-holder-rendered="true" alt="100%x180"  style="height: 180px; width: 100%; display: block;">  
+              </div>
+              <div class="col-md-4">
+                  <h3>How it works</h3>
+                  <p>Klarismo has partnered with many world class medical scanning facilities to deliver your unique 3D Body Scan. Simply book a scan at your nearest location and take completely safe and harmless MRI scan. <a href="/learn-more">Learn more.</a></p>
+              </div>
+              <div class="col-md-4">
+                <h3>&nbsp;</h3>
+                <p>Your scan will take a total of 60 minutes, with 30 minutes spent in the scanner. The imaging facility will transfer your data directly to Klarismo where we will begin to generate your 3D body model.</p>   
+              </div>
             </div>
         </div>
-        <!-- /.row -->
 
-        <!-- Page Features -->
-        <div class="row text-center">
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
+        <div class="row-full">
+            <div class="row">
+              <div class="col-md-4">
+                    <h3>High Quality MRI Scan</h3>
+                    <p>&nbsp;</p>
+                    <p>Klarismo has signed up some of the best imaging centres around the world. You are guaranteed a very high quality MRI scan and expectional customer service.</a></p>
+              </div>
+              <div class="col-md-4">
+                    <h3>Unique Klarismo Body Explorer</h3>
+                    <p>&nbsp;</p>
+                    <p>Klarismo is developing the world's first user friendly visualisation tools for medical imaging. For the first time you don't need to be a doctor to understand what you are looking at.</a></p>
+              </div>
+              <div class="col-md-4">
+                    <h3>One Year Free Upgrades</h3>
+                    <p>&nbsp;</p>
+                    <p>Each Klarismo 3D Body Scan includes free access to the Klarismo Body Explorer for one year, including all updates and enhanchements that we release for Web and mobile</p>   
                     </div>
-                </div>
             </div>
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
         </div>
-        <!-- /.row -->
-
-        <hr>
 
         <!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+<!--                     <dl class="dl-horizontal">
+                      <dt>&copy; 2015 Klarismo</dt>
+                      <dd>|</dd>
+                      <dd><a href="/terms">Terms of Service</a> </dd>
+                      <dd>|</dd>
+                      <dd><a href="/terms">Privacy Policy</a></dd>
+                    </dl> -->
+                    <ul>
+                        <li>
+                            &copy; 2015 Klarismo
+                        </li>
+                        <li>
+                            |
+                        </li>
+                        <li>
+                            <a href="/terms">Terms of Service</a>
+                        </li>
+                        <li>
+                            |
+                        </li>
+                        <li>
+                            <a href="/privacy">Privacy Policy</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </footer>
