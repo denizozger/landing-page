@@ -34,6 +34,11 @@ body {
     font-size: 16px
 }
 
+a:hover, 
+a:focus {
+  text-decoration: none;
+}
+
 .jumbotron-container {
   padding-right: 15px;
   padding-left: 15px;
@@ -222,6 +227,11 @@ body {
 .navbar-inverse .navbar-nav > li > a,
 .navbar-inverse .navbar-brand {
     color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, 
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #23527c
 }
 
 footer ul > li {
